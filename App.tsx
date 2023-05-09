@@ -9,7 +9,7 @@ export default function App() {
     // <View style={styles.container}>
       <WebView
         source={{
-          uri: 'https://sensei.pierasystems.com'
+          uri: 'https://poppy-dev.pierasystems.com/'
         }}
         // scalesPageToFit={isAndroid() ? false : true}
         injectedJavaScript={INJECTEDJAVASCRIPT}
